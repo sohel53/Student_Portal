@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student_Portal</title>
+</head>
+<body>
+    <heading id="heading">
+        <h2> &nbsp; &nbsp; Student Portal</h2>
+    </heading>
+    <main>
+        <input type="text" id="search-box" placeholder="Search"> <button id="search-btn" type="button">Search</button> <br><br>
+        <div id="button">
+            <button id="sortInc" type="button">Sort A -> B</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <button id="sortDec" type="button">Sort A <- B</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <button id="sortMarks" types="button">Sort By Marks</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <button id="sortPassing" types="button">Sort By Passing</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <button id="sortClass" types="button">Sort By Class</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <button id="sortGender" types="button">Sort By Gender</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        </div>
+
+        <table id="students" border="1" style="width:90%">
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+            </tr>
+        </table>
+       
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

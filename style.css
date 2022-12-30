@@ -1,0 +1,87 @@
+#heading {
+    display: flex;
+    position: absolute;
+    width: 1518px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    color: white;
+
+    background: #000000;
+}
+
+#search-box {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    height: 40px;
+    width: 1300px;
+    font-size: 20px;
+    
+}
+
+#search-btn {
+    position: absolute;
+    top: 80px;
+    height: 45px;
+    width: 120px;
+    right: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+ 
+#button {
+    position: absolute;
+    top: 140px;
+    left: 30px;
+}
+#sortInc {
+    height: 50px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#sortDec {
+    height: 50px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#sortMarks {
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#sortPassing {
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#sortClass {
+    height: 50px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#sortGender {
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#students {
+    position: absolute;
+    top: 250px;
+    height: 400px;
+    left: 30px;
+}
